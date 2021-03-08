@@ -4,6 +4,9 @@ package inventory.model;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+/*
+    Aceasta clasa este containerul in care se pun toate produsele si part-urile.
+ */
 public class Inventory {
     
     // Declare fields
@@ -49,8 +52,9 @@ public class Inventory {
             if(p.getName().contains(searchItem) || (p.getProductId()+"").equals(searchItem)) return p;
             isFound = true;
         }
-        if(!isFound) {
-            return new Product(0, null, 0.0, 0, 0, 0, null);
+        if(isFound == false) {
+            Product product = new Product(0, null, 0.0, 0, 0, 0, null);
+            return product;
         }
         return null;
     }
@@ -83,7 +87,7 @@ public class Inventory {
     public void addPart(Part part) {
         allParts.add(part);
     }
-    
+
     /**
      * Removes part passed as parameter from allParts
      * @param part 

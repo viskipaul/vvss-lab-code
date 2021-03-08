@@ -4,7 +4,9 @@ package inventory.model;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
-
+/*
+Clasa product care contine toate datele despre un singur produs
+ */
 public class Product {
     
     // Declare fields

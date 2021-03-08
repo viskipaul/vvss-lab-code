@@ -1,6 +1,7 @@
 
 package inventory.controller;
 
+import inventory.Utils;
 import inventory.model.InhousePart;
 import inventory.model.OutsourcedPart;
 import inventory.model.Part;
@@ -22,7 +23,9 @@ import java.util.ResourceBundle;
 
 import static inventory.controller.MainScreenController.getModifyPartIndex;
 
-
+/*
+    Clasa controller ModifyPartController este responsabila pentru afisarea ferestrei de modificare a Parts-urilor
+ */
 public class ModifyPartController implements Initializable, Controller {
     
     // Declare field
@@ -185,7 +188,19 @@ public class ModifyPartController implements Initializable, Controller {
         errorMessage = "";
         
         try {
-            errorMessage = Part.isValidPart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), errorMessage);
+            String errorMessage = "";
+            if(name.trim().isEmpty())
+                errorMessage += "\n The name field is empty!";
+            if(price.trim().isEmpty())
+                errorMessage += "\n The price field is empty!";
+            if(inStock.trim().isEmpty())
+                errorMessage += "\n The inStock field is empty!";
+            if(min.trim().isEmpty())
+                errorMessage += "\n The min field is empty!";
+            if(max.trim().isEmpty())
+                errorMessage += "\n The max field is empty!";
+            if(errorMessage.length() == 0)
+                errorMessage = Part.isValidPart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), errorMessage);
             if(errorMessage.length() > 0) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Error Adding Part!");
@@ -193,7 +208,7 @@ public class ModifyPartController implements Initializable, Controller {
                 alert.setContentText(errorMessage);
                 alert.showAndWait();
             } else {
-                if(isOutsourced) {
+                if(isOutsourced == true) {
                     service.updateOutsourcedPart(partIndex, Integer.parseInt(partId), name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), partDynamicValue);
                 } else {
                     service.updateInhousePart(partIndex, Integer.parseInt(partId), name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), Integer.parseInt(partDynamicValue));
@@ -202,13 +217,9 @@ public class ModifyPartController implements Initializable, Controller {
             }
 
         } catch (NumberFormatException e) {
-            System.out.println("Blank Fields");
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Error Adding Part!");
-            alert.setHeaderText("Error");
-            alert.setContentText("Form contains blank field.");
-            alert.showAndWait();
+            Utils.showErrorPopup("Error Editing Part!","Expected number in PRICE, MIN, MAX and INVENTORY but text was entered. " );
         }
+
 
     }
 

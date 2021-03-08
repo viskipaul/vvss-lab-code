@@ -1,5 +1,6 @@
 package inventory.controller;
 
+import inventory.Utils;
 import inventory.model.Part;
 import inventory.model.Product;
 import inventory.service.InventoryService;
@@ -23,7 +24,9 @@ import java.util.ResourceBundle;
 
 import static inventory.controller.MainScreenController.getModifyProductIndex;
 
-
+/*
+    Clasa controller ModifyPartController este responsabila pentru afisarea ferestrei de modificare a Product-urilor
+ */
 public class ModifyProductController implements Initializable, Controller {
     
     // Declare fields
@@ -230,7 +233,19 @@ public class ModifyProductController implements Initializable, Controller {
         errorMessage = "";
         
         try {
-            errorMessage = Product.isValidProduct(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), addParts, errorMessage);
+            String errorMessage = "";
+            if(name.trim().isEmpty())
+                errorMessage += "\n The name field is empty!";
+            if(price.trim().isEmpty())
+                errorMessage += "\n The price field is empty!";
+            if(inStock.trim().isEmpty())
+                errorMessage += "\n The inStock field is empty!";
+            if(min.trim().isEmpty())
+                errorMessage += "\n The min field is empty!";
+            if(max.trim().isEmpty())
+                errorMessage += "\n The max field is empty!";
+            if(errorMessage.length() == 0)
+                errorMessage = Product.isValidProduct(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), addParts, errorMessage);
             if(errorMessage.length() > 0) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Error Adding Part!");
@@ -242,13 +257,9 @@ public class ModifyProductController implements Initializable, Controller {
                 displayScene(event, "/fxml/MainScreen.fxml");
             }
         } catch (NumberFormatException e) {
-            System.out.println("Form contains blank field.");
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Error Adding Product!");
-            alert.setHeaderText("Error!");
-            alert.setContentText("Form contains blank field.");
-            alert.showAndWait();
+            Utils.showErrorPopup("Error editing product!","Expected number in PRICE, MIN, MAX and INVENTORY but text was entered. " );
         }
+
     }
 
     /**

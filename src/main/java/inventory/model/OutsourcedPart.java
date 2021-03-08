@@ -1,7 +1,10 @@
 
 package inventory.model;
 
-
+/*
+    Clasa part-urilor care sunt de provenienta straina
+    Extinde clasa Part
+ */
 public class OutsourcedPart extends Part {
     
     // Declare fields

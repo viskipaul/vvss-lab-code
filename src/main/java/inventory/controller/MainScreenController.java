@@ -22,6 +22,9 @@ import java.util.Optional;
 import java.util.ResourceBundle;
 
 
+/*
+    Clasa controller MainScreenController este responsabila pentru afisarea ferestrei principale
+ */
 public class MainScreenController implements Initializable,Controller {
     
      // Declare fields

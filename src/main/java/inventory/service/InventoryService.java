@@ -3,7 +3,9 @@ package inventory.service;
 import inventory.model.*;
 import inventory.repository.InventoryRepository;
 import javafx.collections.ObservableList;
-
+/*
+    Service-ul responsabil pentru a intermedia functiile de stocare si citire intre controllere si repo
+ */
 public class InventoryService {
 
     private InventoryRepository repo;

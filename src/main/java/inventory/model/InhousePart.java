@@ -1,6 +1,9 @@
 package inventory.model;
 
-
+/*
+    Clasa part-urilor care sunt de provenienta proprie
+    Extinde clasa Part
+ */
 public class InhousePart extends Part {
 
     // Declare fields

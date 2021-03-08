@@ -1,5 +1,6 @@
 package inventory.controller;
 
+import inventory.Utils;
 import inventory.model.Part;
 import inventory.service.InventoryService;
 import javafx.event.ActionEvent;
@@ -17,7 +18,9 @@ import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
-
+/*
+   Clasa AddPartController este controllerul responsabil pentru fereastra de adaugare a Part-urilor
+ */
 public class AddPartController implements Initializable, Controller {
     
     // Declare fields
@@ -25,6 +28,7 @@ public class AddPartController implements Initializable, Controller {
     private Parent scene;
     private boolean isOutsourced = true;
     private String errorMessage = new String();
+    private int partId;
 
     private InventoryService service;
     
@@ -152,7 +156,21 @@ public class AddPartController implements Initializable, Controller {
         errorMessage = "";
         
         try {
-            errorMessage = Part.isValidPart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), errorMessage);
+            String errorMessage = "";
+            if(name.trim().isEmpty())
+                errorMessage += "\n The name field is empty!";
+            if(price.trim().isEmpty())
+                errorMessage += "\n The price field is empty!";
+            if(inStock.trim().isEmpty())
+                errorMessage += "\n The inStock field is empty!";
+            if(min.trim().isEmpty())
+                errorMessage += "\n The min field is empty!";
+            if(max.trim().isEmpty())
+                errorMessage += "\n The max field is empty!";
+            if(errorMessage.length() == 0)
+                errorMessage = Part.isValidPart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), errorMessage);
+
+
             if(errorMessage.length() > 0) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Error Adding Part!");
@@ -160,21 +178,15 @@ public class AddPartController implements Initializable, Controller {
                 alert.setContentText(errorMessage);
                 alert.showAndWait();
             } else {
-               if(isOutsourced) {
+               if(isOutsourced == true) {
                     service.addOutsourcePart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), partDynamicValue);
                 } else {
                     service.addInhousePart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), Integer.parseInt(partDynamicValue));
                 }
                 displayScene(event, "/fxml/MainScreen.fxml");
             }
-            
-        } catch (NumberFormatException e) {
-            System.out.println("Form contains blank field.");
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Error Adding Part!");
-            alert.setHeaderText("Error!");
-            alert.setContentText("Form contains blank field.");
-            alert.showAndWait();
+        }catch (NumberFormatException e) {
+            Utils.showErrorPopup("Error Adding Part!","Expected number in PRICE, MIN, MAX and INVENTORY but text was entered. " );
         }
     }
 

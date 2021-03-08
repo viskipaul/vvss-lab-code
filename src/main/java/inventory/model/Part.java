@@ -1,7 +1,9 @@
 
 package inventory.model;
 
-
+/*
+    Clasa abstraca mostenita de InhousePart si OutsourcedPart
+ */
 public abstract class Part {
 
     // Declare fields
@@ -13,7 +15,7 @@ public abstract class Part {
     private int max;
     
     // Constructor
-    protected Part(int partId, String name, double price, int inStock, int min, int max) {
+    public Part(int partId, String name, double price, int inStock, int min, int max) {
         this.partId = partId;
         this.name = name;
         this.price = price;
