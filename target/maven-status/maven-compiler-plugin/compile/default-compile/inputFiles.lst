@@ -1,14 +1,15 @@
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\AddPartController.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\Main.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\repository\InventoryRepository.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\InhousePart.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\OutsourcedPart.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\ModifyProductController.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\Controller.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\Part.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\MainScreenController.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\Inventory.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\Product.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\service\InventoryService.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\ModifyPartController.java
-E:\Chestii Facultate\VVSS\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\AddProductController.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\Inventory.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\Part.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\repository\InventoryRepository.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\Controller.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\Main.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\ModifyPartController.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\OutsourcedPart.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\MainScreenController.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\AddProductController.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\service\InventoryService.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\InhousePart.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\Product.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\AddPartController.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\Utils.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\ModifyProductController.java

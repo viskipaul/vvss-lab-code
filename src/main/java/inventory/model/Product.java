@@ -125,6 +125,9 @@ public class Product {
         if (name.equals("")) {
             errorMessage += "A name has not been entered. ";
         }
+        if(name.contains(",")){
+            errorMessage += "Invalid character in name field. ";
+        }
         if (min < 0) {
             errorMessage += "The inventory level must be greater than 0. ";
         }

@@ -1,3 +1,5 @@
 
-{squid:S14886"_Immediately return this expression instead of assigning it to the temporary variable "product".(¨şÛ¿ùÿÿÿÿ
-Esquid:S11255")Remove the literal "false" boolean value.(ĞÏŸşÿÿÿÿ
+K
+java:S11257")Remove the literal "false" boolean value.(ĞÏŸşÿÿÿÿ8ÆáŠ/
+
+java:S14888"_Immediately return this expression instead of assigning it to the temporary variable "product".(¨şÛ¿ùÿÿÿÿ8ÆáŠ/
