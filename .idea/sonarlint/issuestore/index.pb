@@ -11,8 +11,6 @@ i
 9src/main/java/inventory/controller/AddPartController.java,6\0\60c45c8b83590f796b548300881eb5e32034406b
 Q
 !src/main/java/inventory/Main.java,e\c\ece56c845d15f2c366abf3aa1a07420ba35ea01b
-\
-,src/main/java/inventory/model/Inventory.java,6\f\6f314193286495a02fb473e4cf32b85ed85f7dcf
 b
 2src/main/java/inventory/controller/Controller.java,a\6\a6635e298a8cf86a761fdee9b7ec350061490945
 l
@@ -31,3 +29,5 @@ Z
 *src/main/java/inventory/model/Product.java,b\1\b1f9f60d378ed17b8cfbd23f6880c72f0d6cb447
 ^
 .src/main/java/inventory/model/InhousePart.java,6\6\66f68dc77d37d8374d575a22cff106c783fe7fc9
+a
+1src/main/java/inventory/repository/Inventory.java,7\8\7819f32b9ac7c828c03dfc9aa3a2c74a033968ef
