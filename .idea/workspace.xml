@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/repository/AddPartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2be59cab73aba69f05fe8c6ed684b45b480c876c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2be59cab73aba69f05fe8c6ed684b45b480c876c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cd8fd867bf6d05ab23fd072c876cc5fe298b358" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cd8fd867bf6d05ab23fd072c876cc5fe298b358" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebc32a263b34eeff26b01cbf68aed681310714be" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebc32a263b34eeff26b01cbf68aed681310714be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe123040025ffc7790be0315cb187fb9b2631761" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe123040025ffc7790be0315cb187fb9b2631761" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/repository/Inventory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,6 +51,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -52,18 +62,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="inventory.repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main" />
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="inventory" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources\data" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\java\resources\data" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\java" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\java\inventory" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main" />
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -78,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.Inventory [exec:java]">
+  <component name="RunManager" selected="JUnit.AddPartTest.math">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inventory.Main" />
       <module name="Inventory" />
@@ -88,6 +104,38 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddPartTest.addValidPart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inventory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory.repository" />
+      <option name="MAIN_CLASS_NAME" value="inventory.repository.AddPartTest" />
+      <option name="METHOD_NAME" value="addValidPart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddPartTest.math" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inventory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory.repository" />
+      <option name="MAIN_CLASS_NAME" value="inventory.repository.AddPartTest" />
+      <option name="METHOD_NAME" value="math" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddPartTest.math" />
+        <item itemvalue="JUnit.AddPartTest.addValidPart" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -149,6 +199,8 @@
       <workItem from="1615206515153" duration="257000" />
       <workItem from="1615207140162" duration="2033000" />
       <workItem from="1615379544319" duration="1112000" />
+      <workItem from="1615482114379" duration="204000" />
+      <workItem from="1616332782695" duration="4498000" />
     </task>
     <servers />
   </component>

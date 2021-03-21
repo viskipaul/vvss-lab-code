@@ -87,7 +87,9 @@ public class Inventory {
      * @param part 
      */
     public void addPart(Part part) {
-        allParts.add(part);
+        if(Part.isValidPart(part.getName(), part.getPrice(), part.getInStock(),
+                part.getMin(), part.getMax(), "").equals(""))
+            allParts.add(part);
     }
 
     /**
