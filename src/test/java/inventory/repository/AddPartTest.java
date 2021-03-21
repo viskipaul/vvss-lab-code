@@ -8,17 +8,23 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class AddPartTest {
+    private Inventory repo;
+    private final static Logger LOGGER = Logger.getLogger(AddPartTest.class.getName());
 
     @BeforeEach
     void setUp() {
+        LOGGER.info("Setting up testcase.");
+        repo = new Inventory();
     }
 
     @AfterEach
     void tearDown() {
+        LOGGER.info("Teardown running.");
     }
 
     @Test
@@ -28,7 +34,6 @@ class AddPartTest {
         // inStock = 1
         InhousePart part = new InhousePart(1, "Surub1", 10.0, 1,
                 1, 120, 1);
-        Inventory repo = new Inventory();
         repo.addPart(part);
         assertEquals(1, repo.getAllParts().size());
     }
@@ -40,7 +45,6 @@ class AddPartTest {
         // inStock = 0 (<1)
         InhousePart part = new InhousePart(1, "Surub1", 10.0, 0,
                 1, 120, 1);
-        Inventory repo = new Inventory();
         repo.addPart(part);
         assertEquals(0, repo.getAllParts().size());
     }
@@ -52,7 +56,6 @@ class AddPartTest {
         // quantity -15
         InhousePart part = new InhousePart(1, "Surub1", 10.0, 15,
                 1, 120, 1);
-        Inventory repo = new Inventory();
         repo.addPart(part);
         assertEquals(1, repo.getAllParts().size());
     }
@@ -64,7 +67,6 @@ class AddPartTest {
         //- quantity 150
         InhousePart part = new InhousePart(1, "Surub1", 10.0, 150,
                 1, 120, 1);
-        Inventory repo = new Inventory();
         repo.addPart(part);
         assertEquals(0, repo.getAllParts().size());
 
@@ -79,7 +81,6 @@ class AddPartTest {
 
         InhousePart part = new InhousePart(1, "Surub1", 10.0, 1,
                 min, 90, 1);
-        Inventory repo = new Inventory();
         repo.addPart(part);
         assertEquals(0, repo.getAllParts().size());
     }
@@ -88,6 +89,5 @@ class AddPartTest {
     @Disabled
     void math(){
         assertEquals(3, 1+1);
-
     }
 }
