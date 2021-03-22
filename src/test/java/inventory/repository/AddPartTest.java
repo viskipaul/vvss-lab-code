@@ -86,6 +86,39 @@ class AddPartTest {
     }
 
     @Test
+    @Tag("bva")
+    @DisplayName("Valid-BVA-3")
+    void addValidPartBva3() {
+        //name length > 0
+        InhousePart part = new InhousePart(1, "test", 10.0, 15,
+                1, 120, 1);
+        repo.addPart(part);
+        assertEquals(1, repo.getAllParts().size());
+    }
+    @Test
+    @Tag("bva")
+    @DisplayName("Valid-BVA-4")
+    void addValidPartBva4() {
+        //name length = 0
+        InhousePart part = new InhousePart(1, "", 10.0, 15,
+                1, 120, 1);
+        repo.addPart(part);
+        assertEquals(0, repo.getAllParts().size());
+    }
+
+    @Tag("ecp")
+    @DisplayName("Valid-ECP-3")
+    @ValueSource(ints = { 1,2,3 })
+    void addInvalidPartEcp3(int price) {
+        //- min > max
+
+        InhousePart part = new InhousePart(1, "Surub1", price, 1,
+                5, 90, 1);
+        repo.addPart(part);
+        assertEquals(1, repo.getAllParts().size());
+    }
+
+    @Test
     @Disabled
     void math(){
         assertEquals(3, 1+1);
