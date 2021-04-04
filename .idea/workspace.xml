@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0af9949bf5541778be1f206b3e1e34397326e8d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/7819f32b9ac7c828c03dfc9aa3a2c74a033968ef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/7819f32b9ac7c828c03dfc9aa3a2c74a033968ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebc32a263b34eeff26b01cbf68aed681310714be" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebc32a263b34eeff26b01cbf68aed681310714be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee01aa5b33fa64c29d4f1f27030d118a9f92d0f3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee01aa5b33fa64c29d4f1f27030d118a9f92d0f3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Lab02/Lab02_BBT_TCs_Form.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab02/Lab02_BBT_TCs_Form.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/repository/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/repository/SearchPartByNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/repository/SearchPartByNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\Paul\Desktop\VVSS\Teams\Labs\Lab03" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,33 +61,33 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lab03" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="inventory.repository" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main" />
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="inventory" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources\data" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\java\resources\data" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\java" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\java\inventory" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main" />
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -86,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddPartTest (1)">
+  <component name="RunManager" selected="JUnit.SearchPartByNameTest">
     <configuration name="AddPartTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inventory" />
       <extension name="coverage">
@@ -120,38 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddPartTest.addInvalidPartEcp1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inventory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inventory.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="inventory.repository" />
-      <option name="MAIN_CLASS_NAME" value="inventory.repository.AddPartTest" />
-      <option name="METHOD_NAME" value="addInvalidPartEcp1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddPartTest.addInvalidPartEcp2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inventory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inventory.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="inventory.repository" />
-      <option name="MAIN_CLASS_NAME" value="inventory.repository.AddPartTest" />
-      <option name="METHOD_NAME" value="addInvalidPartEcp2(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddPartTest.addValidPartEcp1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inventory" />
       <extension name="coverage">
@@ -163,6 +147,39 @@
       <option name="PACKAGE_NAME" value="inventory.repository" />
       <option name="MAIN_CLASS_NAME" value="inventory.repository.AddPartTest" />
       <option name="METHOD_NAME" value="addValidPartEcp1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchPartByNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inventory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.repository.Inventory" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory.repository" />
+      <option name="MAIN_CLASS_NAME" value="inventory.repository.SearchPartByNameTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchPartByNameTest.validTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inventory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory.repository" />
+      <option name="MAIN_CLASS_NAME" value="inventory.repository.SearchPartByNameTest" />
+      <option name="METHOD_NAME" value="validTestCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,13 +211,21 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.AddPartTest" />
+      <item itemvalue="JUnit.AddPartTest.addValidPartEcp1" />
+      <item itemvalue="JUnit.AddPartTest (1)" />
+      <item itemvalue="JUnit.SearchPartByNameTest" />
+      <item itemvalue="JUnit.SearchPartByNameTest.validTestCase" />
+      <item itemvalue="Maven.Inventory [exec:java]" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchPartByNameTest" />
+        <item itemvalue="JUnit.SearchPartByNameTest.validTestCase" />
         <item itemvalue="JUnit.AddPartTest (1)" />
         <item itemvalue="JUnit.AddPartTest" />
         <item itemvalue="JUnit.AddPartTest.addValidPartEcp1" />
-        <item itemvalue="JUnit.AddPartTest.addInvalidPartEcp1" />
-        <item itemvalue="JUnit.AddPartTest.addInvalidPartEcp2" />
       </list>
     </recent_temporary>
   </component>
@@ -233,11 +258,12 @@
       <workItem from="1616332782695" duration="4498000" />
       <workItem from="1616376411908" duration="1583000" />
       <workItem from="1616378020548" duration="547000" />
+      <workItem from="1617558995777" duration="4964000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -251,6 +277,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Inventory_iml$SearchPartByNameTest.ic" NAME="SearchPartByNameTest Coverage Results" MODIFIED="1617565027905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>inventory.repository.Inventory</FILTER>
+    </SUITE>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

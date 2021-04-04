@@ -3,8 +3,6 @@ l
 <src/main/java/inventory/controller/AddProductController.java,e\b\ebc32a263b34eeff26b01cbf68aed681310714be
 k
 ;src/main/java/inventory/repository/InventoryRepository.java,9\5\959d3be9e6d77120b22cdef08892aae567b3ccfc
-=
-Inventory.iml,0\a\0af9949bf5541778be1f206b3e1e34397326e8d6
 e
 5src/main/java/inventory/service/InventoryService.java,f\b\fbfefaa7b63a08d0319b42efe2f7604a9cd84bce
 i
@@ -31,3 +29,7 @@ Z
 .src/main/java/inventory/model/InhousePart.java,6\6\66f68dc77d37d8374d575a22cff106c783fe7fc9
 a
 1src/main/java/inventory/repository/Inventory.java,7\8\7819f32b9ac7c828c03dfc9aa3a2c74a033968ef
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+c
+3src/test/java/inventory/repository/AddPartTest.java,e\e\ee01aa5b33fa64c29d4f1f27030d118a9f92d0f3

@@ -106,11 +106,13 @@ public class Inventory {
      * @return 
      */
     public Part lookupPart(String searchItem) {
-        for(Part p:allParts) {
-            if(p.getName().contains(searchItem) || (p.getPartId()+"").equals(searchItem)) return p;
+        for(Part p:allParts) {                      // 1
+            if(p.getName().contains(searchItem)     // 2
+                    || (p.getPartId()+"").equals(searchItem)) // 3
+                return p;                           // 4
         }
-        return null;
-    }
+        return null;                                // 5
+    } // 6
     
     /**
      * Update part at given index

@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vvss-lab1-code" />
-        <module name="02_Inventory" />
         <module name="Inventory" />
+        <module name="02_Inventory" />
+        <module name="vvss-lab1-code" />
       </profile>
     </annotationProcessing>
   </component>

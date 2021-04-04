@@ -1,4 +1,3 @@
-C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\Inventory.java
 C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\Part.java
 C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\repository\InventoryRepository.java
 C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\Controller.java
@@ -7,6 +6,7 @@ C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\invent
 C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\OutsourcedPart.java
 C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\MainScreenController.java
 C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\controller\AddProductController.java
+C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\repository\Inventory.java
 C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\service\InventoryService.java
 C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\InhousePart.java
 C:\Users\Paul\Desktop\VVSS\Teams\Labs\Proiecte\02_Inventory\src\main\java\inventory\model\Product.java
