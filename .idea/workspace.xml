@@ -5,25 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0af9949bf5541778be1f206b3e1e34397326e8d6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/7819f32b9ac7c828c03dfc9aa3a2c74a033968ef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/7819f32b9ac7c828c03dfc9aa3a2c74a033968ef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebc32a263b34eeff26b01cbf68aed681310714be" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebc32a263b34eeff26b01cbf68aed681310714be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee01aa5b33fa64c29d4f1f27030d118a9f92d0f3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee01aa5b33fa64c29d4f1f27030d118a9f92d0f3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbfefaa7b63a08d0319b42efe2f7604a9cd84bce" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbfefaa7b63a08d0319b42efe2f7604a9cd84bce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe123040025ffc7790be0315cb187fb9b2631761" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe123040025ffc7790be0315cb187fb9b2631761" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab02/Lab02_BBT_TCs_Form.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab02/Lab02_BBT_TCs_Form.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/repository/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/inventory/repository/SearchPartByNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/repository/SearchPartByNameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="101" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="C:\Users\Paul\Desktop\VVSS\Teams\Labs\Lab03" />
@@ -258,7 +257,9 @@
       <workItem from="1616332782695" duration="4498000" />
       <workItem from="1616376411908" duration="1583000" />
       <workItem from="1616378020548" duration="547000" />
-      <workItem from="1617558995777" duration="4964000" />
+      <workItem from="1617558995777" duration="5137000" />
+      <workItem from="1617608700376" duration="1407000" />
+      <workItem from="1617622661837" duration="128000" />
     </task>
     <servers />
   </component>
@@ -279,7 +280,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Inventory_iml$SearchPartByNameTest.ic" NAME="SearchPartByNameTest Coverage Results" MODIFIED="1617565027905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Inventory_iml$SearchPartByNameTest.ic" NAME="SearchPartByNameTest Coverage Results" MODIFIED="1617622711329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>inventory.repository.Inventory</FILTER>
     </SUITE>
   </component>
