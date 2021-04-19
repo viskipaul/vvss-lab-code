@@ -1,6 +1,7 @@
 package inventory.service;
 
 import inventory.model.*;
+import inventory.repository.IRepository;
 import inventory.repository.InventoryRepository;
 import javafx.collections.ObservableList;
 /*
@@ -8,9 +9,9 @@ import javafx.collections.ObservableList;
  */
 public class InventoryService {
 
-    private InventoryRepository repo;
+    private IRepository repo;
 
-    public InventoryService(InventoryRepository repo){
+    public InventoryService(IRepository repo){
         this.repo =repo;
     }
 

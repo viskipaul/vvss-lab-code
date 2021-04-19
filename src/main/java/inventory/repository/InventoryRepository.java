@@ -8,7 +8,7 @@ import javafx.collections.ObservableList;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class InventoryRepository {
+public class InventoryRepository implements IRepository {
 
 	private static String filename = "data/items.txt";
 	private Inventory inventory;
@@ -22,6 +22,7 @@ public class InventoryRepository {
 	public void readParts(){
 		ClassLoader classLoader = InventoryRepository.class.getClassLoader();
 		File file = new File(classLoader.getResource(filename).getFile());
+		System.out.println(file.getAbsolutePath());
 		ObservableList<Part> listP = FXCollections.observableArrayList();
 		BufferedReader br = null;
 		try {
@@ -187,11 +188,11 @@ public class InventoryRepository {
 		return inventory.getProducts();
 	}
 
-	public Part lookupPart (String search){
+	public Part lookupPart(String search){
 		return inventory.lookupPart(search);
 	}
 
-	public Product lookupProduct (String search){
+	public Product lookupProduct(String search){
 		return inventory.lookupProduct(search);
 	}
 
