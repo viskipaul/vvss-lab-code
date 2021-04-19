@@ -33,3 +33,5 @@ a
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 c
 3src/test/java/inventory/repository/AddPartTest.java,e\e\ee01aa5b33fa64c29d4f1f27030d118a9f92d0f3
+l
+<src/test/java/inventory/repository/SearchPartByNameTest.java,d\b\dbb4d592816dc946bb9e6051c0830836329c38bb

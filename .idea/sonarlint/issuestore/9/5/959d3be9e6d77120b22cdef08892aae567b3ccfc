@@ -1,15 +1,15 @@
 
+U	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(’íÃC8ÀŞ¸‹/
 i
 java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦8ÀŞ¸‹/
 :
 java:S1643–"Use a StringBuilder instead.(ŠÑ‡à8ÀŞ¸‹/
-[	java:S106Œ"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ8ÀŞ¸‹/
 i
 java:S2095Q"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦8ÀŞ¸‹/
-U	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(’íÃC8ÀŞ¸‹/
+[	java:S106Œ"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ8ÀŞ¸‹/
+a
+java:S2147&"DCombine this catch with the one at line 36, which has the same body.(ï­£Ä8ÀŞ¸‹/
 a
 java:S2147["DCombine this catch with the one at line 89, which has the same body.(ï­£Ä8ÀŞ¸‹/
 j
 java:S2095Š"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ù»ı8ÀŞ¸‹/
-a
-java:S2147&"DCombine this catch with the one at line 36, which has the same body.(ï­£Ä8ÀŞ¸‹/

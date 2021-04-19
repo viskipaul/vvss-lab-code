@@ -8,10 +8,18 @@
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/7819f32b9ac7c828c03dfc9aa3a2c74a033968ef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/7819f32b9ac7c828c03dfc9aa3a2c74a033968ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebc32a263b34eeff26b01cbf68aed681310714be" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebc32a263b34eeff26b01cbf68aed681310714be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbfefaa7b63a08d0319b42efe2f7604a9cd84bce" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbfefaa7b63a08d0319b42efe2f7604a9cd84bce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe123040025ffc7790be0315cb187fb9b2631761" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe123040025ffc7790be0315cb187fb9b2631761" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/repository/SearchPartByNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/repository/SearchPartByNameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/data/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/items.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/inventory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryRepository.class" afterDir="false" />
@@ -22,6 +30,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="101" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="C:\Users\Paul\Desktop\VVSS\Teams\Labs\Lab03" />
@@ -194,12 +205,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.Inventory [exec:java]" />
       <item itemvalue="JUnit.RepositoryIntegrationTests (1)" />
       <item itemvalue="JUnit.RepositoryIsolationTests" />
       <item itemvalue="JUnit.ServiceIsolationTests" />
       <item itemvalue="JUnit.CompleteIntegrationTest" />
       <item itemvalue="JUnit.inventory.tests in vvss-lab-code" />
+      <item itemvalue="Maven.Inventory [exec:java]" />
     </list>
     <recent_temporary>
       <list>
@@ -240,7 +251,9 @@
       <workItem from="1616332782695" duration="4498000" />
       <workItem from="1616376411908" duration="1583000" />
       <workItem from="1616378020548" duration="547000" />
-      <workItem from="1617558995777" duration="4964000" />
+      <workItem from="1617558995777" duration="5137000" />
+      <workItem from="1617608700376" duration="1407000" />
+      <workItem from="1617622661837" duration="128000" />
     </task>
     <servers />
   </component>

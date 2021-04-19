@@ -1,24 +1,24 @@
 
-v
-java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿ8¢‘áŠ/
-U	java:S106t"9Replace this use of System.out or System.err by a logger.(¤Õï«8êí°‹/
-X	java:S125Z"<This block of commented-out lines of code should be removed.( ÆüÖ8êí°‹/
-=
-java:S2129" Remove this "String" constructor(ÊÃ‘æ8ò®‹/
-K
-java:S1125µ"(Remove the literal "true" boolean value.(ÿÂóéüÿÿÿÿ8ò®‹/
-L
-java:S1068"*Remove this unused "partId" private field.(•›™âıÿÿÿÿ8ò®‹/
-x
-java:S1450"[Remove the "errorMessage" field and declare it as a local variable in the relevant methods.(ÊÃ‘æ8ò®‹/
 
 java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥×¹<8êí°‹/
+=
+java:S2129" Remove this "String" constructor(ÊÃ‘æ8ò®‹/
+L
+java:S1068"*Remove this unused "partId" private field.(•›™âıÿÿÿÿ8ò®‹/
 R
 java:S3655p"5Call "result.isPresent()" before accessing the value.(ÃÇûŞ8êí°‹/
-Z	java:S106q"9Replace this use of System.out or System.err by a logger.(©²²éúÿÿÿÿ8êí°‹/
-c
-java:S1117Ÿ"@Rename "errorMessage" which hides the field declared at line 30.(ˆªóüıÿÿÿÿ8ò®‹/
+X	java:S125Z"<This block of commented-out lines of code should be removed.( ÆüÖ8êí°‹/
+x
+java:S1450"[Remove the "errorMessage" field and declare it as a local variable in the relevant methods.(ÊÃ‘æ8ò®‹/
 q
 java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(‹ôÒ¡8¢‘áŠ/
+U	java:S106t"9Replace this use of System.out or System.err by a logger.(¤Õï«8êí°‹/
+K
+java:S1125µ"(Remove the literal "true" boolean value.(ÿÂóéüÿÿÿÿ8ò®‹/
+v
+java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿ8¢‘áŠ/
+Z	java:S106q"9Replace this use of System.out or System.err by a logger.(©²²éúÿÿÿÿ8êí°‹/
 M
 java:S1068"0Remove this unused "errorMessage" private field.(ÊÃ‘æ8ò®‹/
+c
+java:S1117Ÿ"@Rename "errorMessage" which hides the field declared at line 30.(ˆªóüıÿÿÿÿ8ò®‹/

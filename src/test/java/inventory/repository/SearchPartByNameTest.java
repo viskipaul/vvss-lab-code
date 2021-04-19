@@ -33,13 +33,13 @@ class SearchPartByNameTest {
     }
 
     @Test
-    void tc1(){
+    void tc1_emptyInventory(){
         Inventory inventory = new Inventory();
         assertNull(inventory.lookupPart("part1"));
     }
 
     @Test
-    void tc2() {
+    void tc2_firstInRepo_findById() {
         Inventory inventory = new Inventory();
         InhousePart part1 = new InhousePart(1, "Part2", 10.0, 2, 1, 10, 15);
         inventory.addPart(part1);
@@ -47,7 +47,7 @@ class SearchPartByNameTest {
     }
 
     @Test
-    void tc3() {
+    void tc3_firstInRepo_findByName() {
         Inventory inventory = new Inventory();
         InhousePart part1 = new InhousePart(1, "Part2", 10.0, 2, 1, 10, 15);
         inventory.addPart(part1);
@@ -55,7 +55,7 @@ class SearchPartByNameTest {
     }
 
     @Test
-    void tc4(){
+    void tc4_notFirstInRepo_findByName(){
         Inventory inventory = new Inventory();
         InhousePart part1 = new InhousePart(1, "Part10", 10.0, 2, 1, 10, 15);
         InhousePart part2 = new InhousePart(2, "Part11", 18.0, 2, 1, 15, 15);
@@ -65,7 +65,7 @@ class SearchPartByNameTest {
     }
 
     @Test
-    void tc5(){
+    void tc5_notFirstInRepo_findById(){
         Inventory inventory = new Inventory();
         InhousePart part1 = new InhousePart(1, "Part10", 10.0, 2, 1, 10, 15);
         InhousePart part2 = new InhousePart(2, "Part11", 18.0, 2, 1, 15, 15);
@@ -75,7 +75,7 @@ class SearchPartByNameTest {
     }
 
     @Test
-    void tc6(){
+    void tc6_notFoundInRepo(){
         Inventory inventory = new Inventory();
         InhousePart part1 = new InhousePart(1, "Part10", 10.0, 2, 1, 10, 15);
         InhousePart part2 = new InhousePart(2, "Part11", 18.0, 2, 1, 15, 15);
